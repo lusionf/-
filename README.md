@@ -25,9 +25,9 @@
 <h3>2、数据结构</h3>
        <p>本课题用到的数据结构是图的数据结构，其中用到的是链式前向星作为储存结构</p> 
 <p>typedef struct Edge {</p>
-<p>        					int to;           //到达点</p>
-<p>           				int w;            //边权值</p> 
-<p>            				int next;         //当前起点的下一条边的起始edge的号</p> 
+<p>        				int to;           //到达点</p>
+<p>           			int w;            //边权值</p> 
+<p>            			int next;         //当前起点的下一条边的起始edge的号</p> 
 <p>         }Edge;</p>
 <p>        int head[maxn]; </p> 
 <p>         //顶点，边数</p>
